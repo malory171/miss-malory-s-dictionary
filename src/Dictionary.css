@@ -1,0 +1,34 @@
+.Dictionary .hero {
+  background-image: url(./BackgroundImage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  display: block;
+  height: 412px;
+  margin: 0 auto;
+  max-width: 900px;
+}
+.Dictionary .hero h1 {
+  color: white;
+  font-family: "Gwendolyn", sans-serif;
+  font-weight: 500;
+  font-size: 100px;
+  padding-top: 65px;
+}
+.Dictionary .hero h2 {
+  color: white;
+  font-weight: 300;
+}
+@media (max-width: 600px) {
+  .Dictionary .hero h1 {
+    font-size: 75px;
+  }
+  .Dictionary .hero h2 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 900px) {
+  .Dictionary {
+    margin: 7px;
+  }
+}
