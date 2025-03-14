@@ -1,0 +1,21 @@
+.App .hero {
+  background-image: url(./BackgroundImage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  display: block;
+  height: 412px;
+  margin: 0 auto;
+  max-width: 900px;
+}
+.App .hero h1 {
+  color: white;
+  font-family: "Gwendolyn", sans-serif;
+  font-weight: 500;
+  font-size: 100px;
+  padding-top: 65px;
+}
+.App .hero h2 {
+  color: white;
+  font-weight: 300;
+}
