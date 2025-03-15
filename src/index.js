@@ -2,6 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
+import "@fontsource/gwendolyn";
+// Supports weights 100-900
+import "@fontsource-variable/hahmlet";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
