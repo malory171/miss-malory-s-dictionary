@@ -1,0 +1,12 @@
+.Meaning h3 {
+  color: #6cb9c1;
+  font-family: "Gwendolyn", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  margin-left: 20px;
+}
+.Meaning p {
+  color: rgba(0, 0, 0, 0.8);
+  margin: 0 20px;
+  margin-bottom: 0px;
+}

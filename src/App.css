@@ -2,3 +2,10 @@
   color: #6cb9c1;
   text-decoration: none;
 }
+.App a:hover {
+  color: rgba(111, 218, 231, 0.6);
+  transition: ease-in-out 0.5s;
+}
+.App footer {
+  padding: 0 20px;
+}

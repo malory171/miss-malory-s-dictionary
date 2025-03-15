@@ -19,16 +19,16 @@
   color: white;
   font-weight: 300;
 }
+.Dictionary .custom-color {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding-left: 5px;
+}
 @media (max-width: 600px) {
   .Dictionary .hero h1 {
     font-size: 75px;
+    padding-top: 95px;
   }
   .Dictionary .hero h2 {
     font-size: 24px;
-  }
-}
-@media (max-width: 900px) {
-  .Dictionary {
-    margin: 7px;
   }
 }
