@@ -15,7 +15,7 @@ export default function Dictionary() {
 
   function handleSubmit(event) {
     event.preventDefault();
-    alert(`Searching fo ${word}`);
+    alert(`Searching for ${word}`);
     //documentation: https://dictionaryapi.dev/
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
     axios.get(apiUrl).then(handleResponse);

@@ -1,0 +1,16 @@
+.Phonetics {
+  margin: 0 20px 5px 20px;
+}
+.Phonetics .phonetics-audio {
+  color: #6cb9c1;
+}
+.Phonetics .phonetics-text {
+  font-family: "Hahmlet Variable", serif;
+  font-size: 24px;
+  font-weight: 300;
+  margin-left: 5px;
+  padding-bottom: 5px;
+}
+.Phonetics .text-with-icon {
+  margin-top: -6px;
+}
