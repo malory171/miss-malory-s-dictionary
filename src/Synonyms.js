@@ -7,17 +7,19 @@ export default function Synonyms(props) {
 
   if (props.synonyms.length > 0) {
     return (
-      <div className="Synonyms white-bg">
-        <h3>Synonyms</h3>
-        <div className="all-synonyms">
-          {props.synonyms.map(function (synonyms, index) {
-            return (
-              <div className="d-inline-flex p-1" key={index}>
-                • {synonyms}
-              </div>
-            );
-          })}
-        </div>
+      <div className="Synonyms">
+        <section>
+          <h3>Synonyms</h3>
+          <div className="all-synonyms">
+            {props.synonyms.map(function (synonyms, index) {
+              return (
+                <div className="d-inline-flex p-1" key={index}>
+                  • {synonyms}
+                </div>
+              );
+            })}
+          </div>
+        </section>
       </div>
     );
   } else {

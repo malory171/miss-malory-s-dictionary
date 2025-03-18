@@ -3,6 +3,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 4px, rgba(0, 0, 0, 0.15) 0px 2px 4px;
   display: block;
   height: 412px;
   margin: 0 auto;
@@ -17,11 +18,33 @@
 }
 .Dictionary .hero h2 {
   color: white;
-  font-weight: 300;
+  font-weight: 200;
+}
+.Dictionary section {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 4px, rgba(0, 0, 0, 0.15) 0px 2px 4px;
+  display: block;
+  margin: 10px auto;
+  max-width: 900px;
+  padding-bottom: 7px;
+}
+.Dictionary input {
+  padding: 0 7px;
+}
+.Dictionary input:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #6cb9c1;
+  transition: ease-in-out 1s;
 }
 .Dictionary .custom-color {
   background-color: rgba(255, 255, 255, 0.6);
   padding-left: 5px;
+}
+.Dictionary .hint {
+  color: white;
+  font-size: 14px;
+  font-weight: 200;
 }
 @media (max-width: 600px) {
   .Dictionary .hero h1 {
@@ -30,5 +53,11 @@
   }
   .Dictionary .hero h2 {
     font-size: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .Dictionary input {
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }

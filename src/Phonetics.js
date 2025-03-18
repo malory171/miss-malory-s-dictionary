@@ -22,10 +22,7 @@ export default function Phonetics(props) {
           target="_blank"
           rel="noreferrer noopener"
         >
-          <i
-            className="fa-solid fa-volume-low custom-color"
-            onClick={start}
-          ></i>
+          <i className="fa-solid fa-volume-low" onClick={start}></i>
         </a>
         <h2 className="phonetics-text d-flex text-with-icon">
           {props.phonetics.text}
