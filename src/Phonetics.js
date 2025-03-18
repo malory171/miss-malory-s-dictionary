@@ -6,7 +6,10 @@ export default function Phonetics(props) {
   console.log(props.phonetics.text);
 
   let audio = new Audio(props.phonetics.audio);
-  const start = () => {
+
+  const start = (event) => {
+    event.preventDefault(); // Prevents navigation to the audio file URL
+    audio.currentTime = 0; // Reset audio to avoid overlapping
     audio.play();
   };
 
