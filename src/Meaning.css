@@ -1,3 +1,11 @@
+.Meaning section {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 4px, rgba(0, 0, 0, 0.15) 0px 2px 4px;
+  display: block;
+  margin: 10px auto;
+  max-width: 900px;
+}
 .Meaning h3 {
   color: #6cb9c1;
   font-family: "Gwendolyn", cursive;

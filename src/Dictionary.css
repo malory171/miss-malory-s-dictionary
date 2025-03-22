@@ -20,15 +20,6 @@
   color: white;
   font-weight: 200;
 }
-.Dictionary section {
-  background-color: white;
-  border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 4px, rgba(0, 0, 0, 0.15) 0px 2px 4px;
-  display: block;
-  margin: 10px auto;
-  max-width: 900px;
-  padding-bottom: 7px;
-}
 .Dictionary input {
   padding: 0 7px;
 }

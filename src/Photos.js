@@ -6,9 +6,9 @@ export default function Photos(props) {
   console.log(props.photos);
   if (props.photos) {
     return (
-      <div className="Photos p-1">
+      <div className="Photos">
         <section>
-          <div className="row p-3">
+          <div className="row">
             {props.photos.photos.map(function (photos, index) {
               return (
                 <div className="col-4" key={index}>

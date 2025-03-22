@@ -8,7 +8,7 @@ function App() {
       <main>
         <Dictionary defaultWord="sunshine" />
       </main>
-      <footer className="m-1 text-center">
+      <footer className="m-2 text-center">
         <p>
           Coded by{" "}
           <a
