@@ -3,8 +3,6 @@ import React from "react";
 import "./Phonetics.css";
 
 export default function Phonetics(props) {
-  console.log(props.phonetics.text);
-
   let audio = new Audio(props.phonetics.audio);
 
   const start = (event) => {

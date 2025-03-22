@@ -3,8 +3,6 @@ import React from "react";
 import "./Meaning.css";
 
 export default function Meaning(props) {
-  console.log(props.meaning);
-  console.log(props.meaning.synonyms);
   return (
     <div className="Meaning">
       <section>
