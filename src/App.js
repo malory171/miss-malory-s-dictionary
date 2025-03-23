@@ -17,7 +17,7 @@ function App() {
             rel="noreferrer"
           >
             Miss Malory
-          </a>
+          </a>{" "}
           📖, open-sourced on{" "}
           <a
             href="https://github.com/malory171/miss-malory-dictionary-project"
